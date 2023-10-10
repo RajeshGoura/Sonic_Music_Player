@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
                                 String currentSong= listView.getItemAtPosition(position).toString();
                                 intent.putExtra("songList",mySongs);
                                 intent.putExtra("currentSong",currentSong);
-                                intent.putExtra("positio",position);
+                                intent.putExtra("position",position);
                                 startActivity(intent);
 
                             }
